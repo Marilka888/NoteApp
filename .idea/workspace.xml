@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3da6184-d1a5-4a55-a276-35402183b92d" name="Changes" comment="В &quot;Заметочнике&quot; реализованы методы сохранения пользователя и записей в БД, удаление записей, вывод данных о пользователе и вывод записей.&#10;Есть странички регистрации и авторизации. Нельзя пользоваться полным функционалом приложения, пока человек не авторизируется">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/repositories/NoteRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/repositories/NoteRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/my-notes.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/my-notes.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/note-info.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/note-info.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="28TcTwKUx6VxAnRkKNA1EGHtL1r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\neuda\Desktop\noteApp\src\main\resources\static" />
+      <recent name="C:\Users\neuda\Desktop\noteApp\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\neuda\Desktop\noteApp\src\main\resources\templates\notr" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="NoteAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="noteApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.marilka888.noteapp.NoteAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3da6184-d1a5-4a55-a276-35402183b92d" name="Changes" comment="" />
+      <created>1651244037444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651244037444</updated>
+      <workItem from="1651244040391" duration="24062000" />
+      <workItem from="1651304477847" duration="30425000" />
+      <workItem from="1651387487321" duration="467000" />
+      <workItem from="1651389697760" duration="984000" />
+    </task>
+    <task id="LOCAL-00001" summary="В &quot;Заметочнике&quot; реализованы методы сохранения пользователя и записей в БД, удаление записей, вывод данных о пользователе и вывод записей.&#10;Есть странички регистрации и авторизации. Нельзя пользоваться полным функционалом приложения, пока человек не авторизируется">
+      <created>1651382026178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651382026178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="В &quot;Заметочнике&quot; реализованы методы сохранения пользователя и записей в БД, удаление записей, вывод данных о пользователе и вывод записей.&#10;Есть странички регистрации и авторизации. Нельзя пользоваться полным функционалом приложения, пока человек не авторизируется" />
+    <option name="LAST_COMMIT_MESSAGE" value="В &quot;Заметочнике&quot; реализованы методы сохранения пользователя и записей в БД, удаление записей, вывод данных о пользователе и вывод записей.&#10;Есть странички регистрации и авторизации. Нельзя пользоваться полным функционалом приложения, пока человек не авторизируется" />
+  </component>
+</project>
