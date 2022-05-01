@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3da6184-d1a5-4a55-a276-35402183b92d" name="Changes" comment="В &quot;Заметочнике&quot; реализованы методы сохранения пользователя и записей в БД, удаление записей, вывод данных о пользователе и вывод записей.&#10;Есть странички регистрации и авторизации. Нельзя пользоваться полным функционалом приложения, пока человек не авторизируется">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/repositories/NoteRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/marilka888/noteapp/repositories/NoteRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/my-notes.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/my-notes.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/note-info.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/note-info.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" afterDir="false" />
-    </list>
+    <list default="true" id="e3da6184-d1a5-4a55-a276-35402183b92d" name="Changes" comment="В &quot;Заметочнике&quot; реализованы методы сохранения пользователя и записей в БД, удаление записей, вывод данных о пользователе и вывод записей.&#10;Есть странички регистрации и авторизации. Нельзя пользоваться полным функционалом приложения, пока человек не авторизируется" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +85,7 @@
       <workItem from="1651244040391" duration="24062000" />
       <workItem from="1651304477847" duration="30425000" />
       <workItem from="1651387487321" duration="467000" />
-      <workItem from="1651389697760" duration="984000" />
+      <workItem from="1651389697760" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary="В &quot;Заметочнике&quot; реализованы методы сохранения пользователя и записей в БД, удаление записей, вывод данных о пользователе и вывод записей.&#10;Есть странички регистрации и авторизации. Нельзя пользоваться полным функционалом приложения, пока человек не авторизируется">
       <created>1651382026178</created>
